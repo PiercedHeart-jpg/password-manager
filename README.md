@@ -1,6 +1,14 @@
-# password-manager
-this is a simple password manager i made in python :)
-please do not use this as a real password manager i mean you can just do not recommend LOL
-There is way better ones out there like keepass xc for offline use and also free and For cloud i recommend last pass not free i think
-make sure to download the cryptography libary in terminal
-this uses Fernet encryption from the cryptography library. Passwords are encrypted before being saved and can be decrypted only with the correct key.
+This is a simple password manager I made in Python!
+Disclaimer: Please don't use this as a real password manager (unless you're just messing around). There are much better options out there like KeePass XC (offline, free) and LastPass (cloud-based, not free).
+
+This app uses Fernet encryption from the cryptography library to securely encrypt passwords before saving them. They can only be decrypted with the correct key.
+
+How to Use:
+
+passwordmanager.py: View the code and run it in your terminal.
+
+passwordmanager.exe: Easier to run (Windows users).
+
+Make sure to install the cryptography library first by running:
+
+pip install cryptography
