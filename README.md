@@ -12,3 +12,17 @@ passwordmanager.exe: Easier to run (Windows users).
 Make sure to install the cryptography library first by running:
 
 pip install cryptography
+
+<!-- All praise the ommisiah spirit of the machine -->
+
+or using venv for
+
+python -m venv .venv
+
+source .venv/bin/activate  # or activate.fish or what ever your system uses.
+<!-- .ps1 for powershell? -->
+
+then
+
+pip install cryptography
+
